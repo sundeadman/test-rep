@@ -18,8 +18,8 @@
 
 		function AskQuestions()
 		{
-			AskQuestion("userAnswer1", "капуста");
-			AskQuestion("userAnswer2", "елка");
+			AskQuestion("userAnswer1", "25");
+			AskQuestion("userAnswer2", "90");
 		
 
 			if(result == 2)
@@ -34,11 +34,11 @@
 		{
 			var userAnswer = document.getElementById("userAnswer1").value;
 			var result = 0;
-			if(userAnswer == "капуста")
+			if(userAnswer == "25")
 				result++;
 
 			userAnswer = document.getElementById("userAnswer2").value;
-			if(userAnswer == "елка")
+			if(userAnswer == "90")
 				result++;
 			
 
@@ -56,27 +56,28 @@
 	<div id="header">
 		<a href="index.html">Главная</a><span>/</span>
 		<a href="#">Загадки</a><span>/</span>
-		<a href="#">Угадайка</a><span>/</span>
-		<a href="#">Угадайка мультиплеер</a><span>/</span>
+		<a href="#">Калькулятор</a><span>/</span>
+		<a href="#">Конвертер валют</a><span>/</span>
+		<a href = 'mailto://icelordman@gmail.com'>E-mail</a>
 	</div>
 <div id="content">
 	<h1>Личный сайт студента GeekBrains</h1>
     <div id="center">	
 		<h3>Игра в загадки</h3>			
-	    <div id="box">
-	    	<h5>Отгадай загадки!</h5>
-	    	<p>Сто одежек, и все без застежек</p>
+	    <div id="box_text1">
+	    	<h5 align='left'>Отгадай загадки!</h5>
+	    	<p>5 в квадрате</p>
 	    	<input type="text" id="userAnswer1">
 
-            <p>Зимой и летом одним цветом</p>
+            <p>Угол в квадрате</p>
             <input type="text" id="userAnswer2">
-
-            <br><br/>
-            <a href="#" onclick="AskQuestions();">Отправить</a>
+            <input type='button' href='#' value="Проверить"  onclick="AskQuestions()" >
+			<br></br>
 	    </div>
+	</div>
 </div>
 
-<div id="footer">
+<div id= 'foot'>
 	Copyright © 2016 <a href="https://geekbrains.ru/"> GeekBrains </a>
 </div>
 

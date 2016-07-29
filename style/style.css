@@ -5,7 +5,7 @@
 
 body {
     background-color: #2A2E33;
-    font-family: 'Times', sans-serif;
+    font-family: Roboto, sans-serif;
 }
 
 #header {
@@ -76,7 +76,6 @@ body {
 #content h5 {
     color:  #00FF00;
     font-size: 24px;
-    text-align: left;
 }
 
 #content img {
@@ -112,6 +111,22 @@ body {
    } 
    
 #content #box_text a:hover {
+    color: #AA0000;
+}
+
+#content #box_text1 a  {
+    color: #DCDCDC;
+    font-size: 24px;
+    font-weight: 100;
+    text-align: left;
+    text-decoration: none;
+}
+
+#content #box_text1 a:visited {
+    color: #CDCDFF; 
+   } 
+   
+#content #box_text1 a:hover {
     color: #AA0000;
 }
 
@@ -184,9 +199,11 @@ body {
 #foot a {
     color: #a4a4a4; 
    }
+   
 #foot  a:visited {
     color: #CDCDFF; 
    }
    
 #foot  a:hover {
     color: #AA0000;
+}
