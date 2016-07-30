@@ -1,0 +1,42 @@
+﻿<html>
+<meta charset="utf-8">
+<head>
+<title>Тестовая страница</title>
+<body>
+<script>
+var a = prompt("как тебя зовут?");
+var count=0;
+if (a == "Дима" ){
+alert("верно");
+var count=count+1;
+} else {
+alert("неверно");
+}
+
+var b = prompt("сколько тебе лет?");
+if (b== 25 ){
+alert("верно");
+var count=count+1;
+} else{
+alert("неверно");
+}
+
+var c = prompt("Как зовут Виолетту?");
+
+if (c == "Вилка" ){
+alert("верно");
+var count=count+1;
+} else {
+alert("неверно");
+}
+if (count == 1)
+{
+alert("Вы ответили правильно " + count + " раз");
+} else if(count == 0)
+{alert("Вы ни разу не ответили правильно"); } else
+{
+alert("Вы ответили правильно " + count + " раза");
+}
+</script>
+</body>
+</html>
